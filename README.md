@@ -6,8 +6,8 @@ Watchtower container for Telerec't
 # telerect-t-watchtower
 Watchtower container for Telerec't
 
-[github](https://github.com/containrrr/watchtower) 
-[docs](https://containrrr.dev/watchtower/)
+* [github](https://github.com/containrrr/watchtower) 
+* [docs](https://containrrr.dev/watchtower/)
 
 
 To enable watching a container add the label:   
@@ -15,7 +15,7 @@ To enable watching a container add the label:
 
 To manually trigger a scan run, where `http_token` is whatever you set in `watchtower.http_token` (default=`abracadabra`)
 ```
-curl -H "Authorization: Bearer {{ http_token }}" https://watchtower.qwlouse.de/v1/update
+curl -H "Authorization: Bearer {{ http_token }}" https://watchtower.example.com/v1/update
 ```
 
 ## Service config
