@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# telerec-t-watchtower
-Watchtower container for Telerec't
-
-=======
 # telerect-t-watchtower
 Watchtower container for Telerec't
 
@@ -24,5 +19,3 @@ curl -H "Authorization: Bearer {{ http_token }}" https://watchtower.example.com/
   * `http_token`: Api token for sending http requests to watchtower (see [docs](https://containrrr.dev/watchtower/http-api-mode/)). HTTP API mode is only activated if this token is non-empty. 
   * `telegram_bot_token`
   * `telegram_channel_id`
-
->>>>>>> 4c73cfd (use compose_hull)
