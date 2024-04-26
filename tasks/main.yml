@@ -9,7 +9,7 @@
       watchtower: true
       autoheal: true
       # service-specific config
-      version: latest
+      version: "latest"
       poll_interval: 86400  # 24h
       http_token:           # disabled by default
       telegram_bot_token:   # disabled by default
